@@ -31,11 +31,12 @@ class CardModel {
             // Add them to the array
             generatedCards += [cardOne, cardTwo]
             
-            print(randomNumber)
+            print("generating a random number \(randomNumber)")
         }
         
         // Randomize the cards within the array
         generatedCards.shuffle()
+        
         // Return the array
         return generatedCards
     }
